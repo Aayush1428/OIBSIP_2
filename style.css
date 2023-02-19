@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    background-color: #ffa64d;
+    min-height: 100vh;
+    border: 10px solid #611712;
+  }
+  
+  .content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .top_section {
+    margin-top: 20px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+  }
+  .top_section h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+    text-transform: uppercase;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+  }
+  .top_section h4 {
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+  }
+  
+  .image_container {
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  
+  .image_container,
+  img {
+    width: 800px;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+	place-items: center;
+    margin-top: 0px;
+    margin-top: 0px;
+
+  }
+  .about_section {
+    margin-top: 50px;
+  }
+  .about_section h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #FF4500;
+    text-decoration: underline;
+    text-decoration-color: #6E260E;
+  }
+  .about_section p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+    padding: 25px 25px;
+    margin: 11px;
+    font-weight: lighter;
+    
+  }
+  .about_section b {
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 25px;
+    font-weight: 500px;
+    text-decoration: underline;
+    
+ }
+
+  .biography_section {
+    margin: 50px 0;
+  }
+  .biography_section h3 {
+    margin-bottom: 50px;
+    font-size: 40px;
+    margin-left:auto;
+    margin-right:auto;
+    text-decoration: underline;
+    text-decoration-color: red;
+  }
+  .biography_section ul {
+    margin-left: 50px;
+    font-size: 20px;
+  }
+  .biography_section li {
+    margin-bottom: 15px;
+  }
+  
+  footer {
+    margin: 50px 0;
+  }
+  footer p {
+    text-align: center;
+    font-weight: bold;
+    font-size : 20px;
+  }
+  .footer{
+    /*font-family: 'Zeyada', cursive;*/
+    font-style: oblique;
+    font-size: 25px;
+    text-align: center; 
+    font-family: 'Dancing Script', cursive;
+
+
+}
